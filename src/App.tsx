@@ -18,7 +18,7 @@ function App() {
 
 		<>
 			
-			<img width={250} src={Title} alt="Bingo" />
+			<img className="title" width={450} src={Title} alt="Bingo" />
 
 			<div className="board">
 				{itemsArray.map((item:TItem, index:number) => {

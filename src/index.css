@@ -5,7 +5,6 @@
 	line-height: 1.5;
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #C4335D;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -47,6 +46,10 @@ body {
 	border-radius: 0.625rem;
 }
 
+.title {
+	margin-bottom: 0rem;
+}
+
 @keyframes colorRotate {
 	0% {
 		-webkit-filter: hue-rotate(0deg);
@@ -66,7 +69,7 @@ button.reset {
 	position: absolute;
 	top: 80px;
 	right: 0;
-	background: #ffffff40;
+	background: #C4335D;
 	color: #333;
 	font-weight: bold;
 	width: 35px;
