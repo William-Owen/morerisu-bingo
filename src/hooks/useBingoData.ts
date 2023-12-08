@@ -13,11 +13,11 @@ const useBingoData = () => {
 			if (BingoData) {
 				setItemsArray(JSON.parse(BingoData));
 			} else {
-				setItemsArray(arrayShuffle([...eventCollectionData]));
+				setItemsArray(arrayShuffle(eventCollectionData));
 			}
 		} catch (error) {
 			console.error('Error loading Bingo data:', error);
-			setItemsArray(arrayShuffle([...eventCollectionData]));
+			setItemsArray(arrayShuffle(eventCollectionData));
 		}
 	}, []);
 
