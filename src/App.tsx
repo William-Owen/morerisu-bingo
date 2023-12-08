@@ -1,5 +1,4 @@
 import Title from './assets/title.svg'
-import Reset from './assets/restart.svg'
 import Square from './components/Square'
 import useBingoData from './hooks/useBingoData'
 import type { TItem } from './types/TItem.type'
