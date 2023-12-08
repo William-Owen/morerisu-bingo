@@ -3,6 +3,7 @@ import Reset from './assets/restart.svg'
 import Square from './components/Square'
 import useBingoData from './hooks/useBingoData'
 import type { TItem } from './types/TItem.type'
+import IconReset from './components/IconReset/IconReset'
 
 function App() {
 
@@ -34,7 +35,7 @@ function App() {
 			</div>
 
 			<button className="reset" onClick={resetData}>
-				<img width={250} src={Reset} alt="Reset" />
+				<IconReset />
 			</button>
 
 		</>

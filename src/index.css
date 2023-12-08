@@ -29,6 +29,7 @@ body {
 	padding: 0;
 	margin: 0;
 }
+
 #root {
 	padding: 0;
 	margin: 0 auto;
@@ -48,6 +49,7 @@ body {
 
 .title {
 	margin-bottom: 0rem;
+	filter: drop-shadow(3px 5px 3px rgb(0 0 0 / 0.8));
 }
 
 @keyframes colorRotate {
@@ -65,15 +67,15 @@ body {
 button.reset {
 	border-radius: 50%;
 	appearance: none;
-	border: none;
+	border: 5px solid #D05C7D;
 	position: absolute;
-	top: 80px;
-	right: 0;
+	top: 90px;
+	right: -20px;
 	background: #C4335D;
 	color: #333;
 	font-weight: bold;
-	width: 35px;
-	height: 35px;
+	width: 45px;
+	height: 45px;
 	line-height: 0;
 	font-size: 0;
 	transform: scale(1);
@@ -86,11 +88,12 @@ button.reset:hover {
 	background: #ffffffff;
 }
 
-button.reset:hover img {
+button.reset:hover svg {
 	animation: rotate 1s infinite;
+	fill: #C4335D
 }
 
-button.reset img {
+button.reset svg {
 	width: 1.25rem;
 	height: 1.25rem;
 }
