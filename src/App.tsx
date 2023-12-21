@@ -18,7 +18,7 @@ function App() {
 
 		<>
 			
-			<img className="title" width={450} src={Title} alt="Bingo" />
+			<img onClick={()=>{localStorage.clear();}} className="title" width={450} src={Title} alt="Bingo" />
 
 			<div className="board">
 				{itemsArray.map((item:TItem, index:number) => {
@@ -36,8 +36,6 @@ function App() {
 			<button className="reset" onClick={resetData}>
 				<IconReset />
 			</button>
-
-			<button onClick={()=>{localStorage.clear();}}>Reset Local</button>
 
 		</>
 
