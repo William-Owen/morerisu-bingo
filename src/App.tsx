@@ -37,6 +37,8 @@ function App() {
 				<IconReset />
 			</button>
 
+			<button onClick={()=>{localStorage.clear();}}>Reset Local</button>
+
 		</>
 
 	)
