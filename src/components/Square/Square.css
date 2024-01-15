@@ -39,8 +39,8 @@
 
 .square.marked {
 
-	background-color: #112056;
-	background: linear-gradient(180deg, rgba(46,44,99,1) 0%, rgba(42,65,177,1) 100%);
+	background-color: #C4335D;
+	background: linear-gradient(180deg, rgb(155, 17, 75) 0%, rgb(177, 42, 107) 100%);
 	color: #fff;
 
 }
