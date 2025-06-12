@@ -1,43 +1,20 @@
-import Title from './assets/title.svg'
-import Square from './components/Square'
-import useBingoData from './hooks/useBingoData'
-import type { TItem } from './types/TItem.type'
-import IconReset from './components/IconReset/IconReset'
+import {
+	QueryClient,
+	QueryClientProvider,
+} from '@tanstack/react-query'
+import Bingo from './components/Bingo'
 
 function App() {
 
-	const {itemsArray, setData, resetData} = useBingoData()
-
-	const handelClick = (index:number) => {
-		const newItemsArray = [...itemsArray]
-		newItemsArray[index].isMarked = !newItemsArray[index].isMarked
-		setData([...newItemsArray])
-	}
-
+	// Create a client
+	const queryClient = new QueryClient()
 	return (
 
-		<>
-			
-			<img onClick={()=>{localStorage.clear();}} className="title" width={450} src={Title} alt="Bingo" />
+		<QueryClientProvider client={queryClient}>
 
-			<div className="board">
-				{itemsArray.map((item:TItem, index:number) => {
-					return <Square 
-						onClick={handelClick} 
-						key={index} 
-						index={index} 
-						isBingo={item.isBingo} 
-						isMarked={item.isMarked} 
-						fontSize={item.fontSize} 
-						itemName={item.title} />
-				})}
-			</div>
+			<Bingo />
 
-			<button className="reset" onClick={resetData}>
-				<IconReset />
-			</button>
-
-		</>
+		</QueryClientProvider>
 
 	)
 }

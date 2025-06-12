@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
+
+
 :root {
+
+	--c-a: #D05C7D;
+	--c-b: #C4335D;
+
 	font-family: 'Poppins', Arial, sans-serif;
 	line-height: 1.5;
-	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
+	color-scheme: dark;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -50,6 +55,7 @@ body {
 .title {
 	margin-bottom: 0rem;
 	filter: drop-shadow(3px 5px 3px rgb(0 0 0 / 0.8));
+	cursor: pointer;
 }
 
 @keyframes colorRotate {
@@ -108,4 +114,12 @@ button.reset svg {
 		transform: rotate(-360deg);
 	}
 
+}
+
+.version {
+	opacity: 0;
+}
+
+.version:hover {
+	opacity: 1;
 }

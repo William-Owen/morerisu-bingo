@@ -73,7 +73,7 @@
     },
     {
         "title": "Jump Scare!",
-        "fontSize": 1.3,
+        "fontSize": 1.5,
         "isMarked": false,
         "isBingo": false
     },
@@ -114,20 +114,20 @@
         "isBingo": false
     },
     {
-        "title": "Hiccup",
-        "fontSize": 1.5,
+        "title": "Hiccup!",
+        "fontSize": 1.4,
         "isMarked": false,
         "isBingo": false
     },
     {
         "title": "Finds wall clock",
-        "fontSize": 1.3,
+         "fontSize": 1.5,
         "isMarked": false,
         "isBingo": false
     },
     {
         "title": "Squirrel appeared",
-        "fontSize": 1.3,
+        "fontSize": 1.1,
         "isMarked": false,
         "isBingo": false
     },
@@ -138,8 +138,8 @@
         "isBingo": false
     },
     {
-        "title": "Stream or Game Crash",
-        "fontSize": 1.3,
+        "title": "Crash",
+        "fontSize": 1.5,
         "isMarked": false,
         "isBingo": false
     },

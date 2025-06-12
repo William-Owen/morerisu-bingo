@@ -1,25 +1,41 @@
 import { useEffect, useState } from 'react';
-import eventCollectionData from '../data/itemsList.json';
 import arrayShuffle from '../lib/arrayShuffle';
 import checkArrayForBingo from '../lib/checkBingo';
 import type { TItem } from '../types/TItem.type';
+import { useQuery } from '@tanstack/react-query';
 
 const useBingoData = () => {
 	const [itemsArray, setItemsArray] = useState<TItem[]>([]);
 
+	const query = useQuery({ 
+		queryKey: ['bingo-data'], 
+		queryFn: async (): Promise<TItem[]> => {
+			const response = await fetch('/data/itemsList.json');
+			return response.json();
+		},
+		enabled: false,
+	});
+	
+	useEffect(() => {
+		if (query.isSuccess) {
+			const shuffledData = arrayShuffle(query.data);
+			setItemsArray(shuffledData);
+			checkArrayForBingo(shuffledData);
+		}
+	}, [query.isSuccess, query.data]);
+
 	useEffect(() => {
 		try {
-			const BingoData = localStorage.getItem('bingoData');
-			if (BingoData) {
-				setItemsArray(JSON.parse(BingoData));
+			const localBingoData = localStorage.getItem('bingoData');
+			if (localBingoData) {
+				setItemsArray(JSON.parse(localBingoData));
 			} else {
-				setItemsArray(arrayShuffle(eventCollectionData));
+				query.refetch();
 			}
 		} catch (error) {
 			console.error('Error loading Bingo data:', error);
-			setItemsArray(arrayShuffle(eventCollectionData));
 		}
-	}, []);
+	}, [query.data]);
 
 	const saveToLocalStorage = (newArray: TItem[]) => {
 		try {
@@ -29,23 +45,23 @@ const useBingoData = () => {
 		}
 	};
 
-	const setData = (newData: TItem[]) => {
+	const updateBingo = (newData: TItem[]) => {
 		const newArray = checkArrayForBingo([...newData]);
 		setItemsArray(newArray);
 		saveToLocalStorage(newArray);
 	};
 
 	const resetData = () => {
-		localStorage.removeItem('bingoData');
-		const resetArray = arrayShuffle(itemsArray.map(item => ({ ...item, isMarked: false, isBingo: false })));
-		setItemsArray(resetArray);
-		saveToLocalStorage(resetArray);
+		localStorage.removeItem('bingoData')
+		query.refetch();
 	};
 
 	return {
 		itemsArray,
-		setData,
-		resetData
+		updateBingo,
+		resetData,
+		isLoading: query.isLoading,
+		isError: query.isError
 	};
 };
 
