@@ -1,5 +1,5 @@
 export type TItem = {
-    title: string
+	title: string
 	isMarked: boolean
 	isBingo: boolean
 	fontSize: number

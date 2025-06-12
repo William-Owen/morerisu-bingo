@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
 :root {
+	--c-a: #d05c7d;
+	--c-b: #c4335d;
 
-	--c-a: #D05C7D;
-	--c-b: #C4335D;
-
-	font-family: 'Poppins', Arial, sans-serif;
+	font-family: "Poppins", Arial, sans-serif;
 	line-height: 1.5;
 	color-scheme: dark;
 	font-synthesis: none;
@@ -43,7 +40,7 @@ body {
 }
 
 .board {
-	background: #D05C7D;
+	background: #d05c7d;
 	padding: 0.625rem;
 	width: 100%;
 	display: grid;
@@ -73,11 +70,11 @@ body {
 button.reset {
 	border-radius: 50%;
 	appearance: none;
-	border: 5px solid #D05C7D;
+	border: 5px solid #d05c7d;
 	position: absolute;
 	top: 90px;
 	right: -20px;
-	background: #C4335D;
+	background: #c4335d;
 	color: #333;
 	font-weight: bold;
 	width: 45px;
@@ -96,7 +93,7 @@ button.reset:hover {
 
 button.reset:hover svg {
 	animation: rotate 1s infinite;
-	fill: #C4335D
+	fill: #c4335d;
 }
 
 button.reset svg {
@@ -105,7 +102,6 @@ button.reset svg {
 }
 
 @keyframes rotate {
-
 	0% {
 		transform: rotate(0deg);
 	}
@@ -113,7 +109,6 @@ button.reset svg {
 	100% {
 		transform: rotate(-360deg);
 	}
-
 }
 
 .version {

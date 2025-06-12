@@ -5,22 +5,20 @@
 */
 
 const arrayShuffle = <T>(array: T[]): T[] => {
-
 	if (!Array.isArray(array)) {
-		throw new TypeError('The provided argument is not an array');
+		throw new TypeError("The provided argument is not an array")
 	}
 
-	const shuffledArray = [...array];
+	const shuffledArray = [...array]
 
 	for (let i = shuffledArray.length - 1; i > 0; i--) {
-		const j = Math.floor(Math.random() * (i + 1));
-		const temp = shuffledArray[i];
-		shuffledArray[i] = shuffledArray[j];
-		shuffledArray[j] = temp;
+		const j = Math.floor(Math.random() * (i + 1))
+		const temp = shuffledArray[i]
+		shuffledArray[i] = shuffledArray[j]
+		shuffledArray[j] = temp
 	}
 
-	return shuffledArray;
-
+	return shuffledArray
 }
 
-export default arrayShuffle;
+export default arrayShuffle

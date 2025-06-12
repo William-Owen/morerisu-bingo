@@ -1,152 +1,152 @@
 [
-    {
-        "title": "100 Bits",
-        "fontSize": 1.5,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "100 viewers!",
-        "fontSize": 1.2,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Anon Sub!",
-        "fontSize": 1.5,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "BRB",
-        "fontSize": 2,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "First time chat!",
-        "fontSize": 1.5,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Points",
-        "fontSize": 1.5,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Finished game",
-        "fontSize": 1.2,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Deviant appears",
-        "fontSize": 1.2,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "GAME BUG",
-        "fontSize": 1.8,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Eat on stream",
-        "fontSize": 1.2,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Hit Daily Sub Goal",
-        "fontSize": 1.2,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Hype Train",
-        "fontSize": 1.5,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Jump Scare!",
-        "fontSize": 1.5,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Sh*t!",
-        "fontSize": 1.7,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "OMG",
-        "fontSize": 2,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "50 View Streak",
-        "fontSize": 1.3,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Raided!",
-        "fontSize": 1.5,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Pervy Risu",
-        "fontSize": 1.7,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "F**K!",
-        "fontSize": 1.7,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Hiccup!",
-        "fontSize": 1.4,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Finds wall clock",
-         "fontSize": 1.5,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Squirrel appeared",
-        "fontSize": 1.1,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Asks for help",
-        "fontSize": 1.5,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Crash",
-        "fontSize": 1.5,
-        "isMarked": false,
-        "isBingo": false
-    },
-    {
-        "title": "Talking on Mute",
-        "fontSize": 1.4,
-        "isMarked": false,
-        "isBingo": false
-    }
+	{
+		"title": "100 Bits",
+		"fontSize": 1.5,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "100 viewers!",
+		"fontSize": 1.2,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Anon Sub!",
+		"fontSize": 1.5,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "BRB",
+		"fontSize": 2,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "First time chat!",
+		"fontSize": 1.5,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Points",
+		"fontSize": 1.5,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Finished game",
+		"fontSize": 1.2,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Deviant appears",
+		"fontSize": 1.2,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "GAME BUG",
+		"fontSize": 1.8,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Eat on stream",
+		"fontSize": 1.2,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Hit Daily Sub Goal",
+		"fontSize": 1.2,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Hype Train",
+		"fontSize": 1.5,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Jump Scare!",
+		"fontSize": 1.5,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Sh*t!",
+		"fontSize": 1.7,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "OMG",
+		"fontSize": 2,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "50 View Streak",
+		"fontSize": 1.3,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Raided!",
+		"fontSize": 1.5,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Pervy Risu",
+		"fontSize": 1.7,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "F**K!",
+		"fontSize": 1.7,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Hiccup!",
+		"fontSize": 1.4,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Finds wall clock",
+		"fontSize": 1.5,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Squirrel appeared",
+		"fontSize": 1.1,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Asks for help",
+		"fontSize": 1.5,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Crash",
+		"fontSize": 1.5,
+		"isMarked": false,
+		"isBingo": false
+	},
+	{
+		"title": "Talking on Mute",
+		"fontSize": 1.4,
+		"isMarked": false,
+		"isBingo": false
+	}
 ]
