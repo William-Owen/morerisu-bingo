@@ -33,7 +33,7 @@ function Bingo() {
 				})}
 			</div>
 
-			<p className="version">v.1.0.4</p>
+			<p className="version">v.1.0.5</p>
 
 			<button className="reset" type="button" onClick={resetData}>
 				<IconReset />
